@@ -19,5 +19,5 @@ userSync:
   supports:
     - iframe
   iframe:
-    url: https://pbs.optidigital.com/cookie_sync
+    url: https://scripts.opti-digital.com/js/presyncs2s.html?endpoint=optidigital&gdpr={{.GDPR}}&gdpr_consent={{.GDPRConsent}}&us_privacy={{.USPrivacy}}&redir={{.RedirectURL}}
     userMacro: $UID
